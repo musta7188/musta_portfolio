@@ -6,7 +6,7 @@
     <title>Moustafa Mohamed</title>
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="/main.css">
 </head>
 <body>
   <header>
@@ -208,9 +208,30 @@
              <h1>Contact</h1>
               <h6>PLet;s work together</h6>
            </div>
-           
+           <form action="">
+             <label for="name">Name</label>
+             <input type="text" id="name" name="name" placeholder="Enter your name..." required>
+             <label for="email">Email</label>
+             <input type="email" id="email" name="email" placeholder="Enter your email..." required>
+             <label for="services">Services:</label>
+            <select name="services" id="service">
+              <option value="">Web Design</option>
+              <option value="">Web Development</option>
+              <option value="">Web Design/Development</option>
+            </select>
+            <label for="subject">Subject:</label>
+            <textarea name="subject" id="subject" cols="10" rows="10"></textarea>
+            <input type="submit" value="Submit"> 
+           </form>
         </div>
       </section>
+
+      <footer class="copyright">
+        <div class="uo" id="up">
+          <i class="fas fa-chevron-up"></i>
+          <p>&copy; 2020 Mustafa Mohamed</p>
+        </div>
+      </footer>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
